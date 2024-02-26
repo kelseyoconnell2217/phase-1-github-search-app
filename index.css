@@ -11,3 +11,34 @@
 ul {
   list-style: none;
 }
+
+.button {
+  background-color: #e7e7e7; color: black; /* Gray */
+  font-size: 12px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  width: 150px;
+  height: 20px;
+  margin-top: 8px;
+  margin-bottom: 0
+}
+.button::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.button:hover {
+    background-color: #606664; /* Green */
+    color: white;
+    
+  }
+
+.img {
+  width: 50%;
+  align: center
+}
+.img::after{
+  content: "\a";
+  white-space: pre;
+}
+
